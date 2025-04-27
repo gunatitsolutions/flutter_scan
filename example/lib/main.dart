@@ -1,11 +1,10 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:scan/scan.dart';
 import 'package:images_picker/images_picker.dart';
+import 'package:scan/scan.dart';
+
 import 'package:scan_example/scan.dart';
 
 void main() {
