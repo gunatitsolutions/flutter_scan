@@ -20,7 +20,10 @@ dependencies:
     # the parent directory to use the current plugin's version.
     path: ../
 
-  images_picker: ^1.2.11
+  images_picker:
+    git:
+      url: https://github.com/gunatitsolutions/images_picker.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

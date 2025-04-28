@@ -24,7 +24,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.chavesgu.scan"
     compileSdkVersion 34
+
 
     defaultConfig {
         minSdkVersion 24
